@@ -3,11 +3,13 @@
 
 terraform {
 
-  # cloud {
-  #   workspaces {
-  #     name = "learn-terraform-eks"
-  #   }
-  # }
+  cloud {
+    organization = "postech-fiap-grupo57"
+
+    workspaces {
+      name = "kubernets_terraform"
+    }
+  }
 
   required_providers {
     aws = {
