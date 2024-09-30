@@ -3,6 +3,7 @@
 
 provider "aws" {
   region = "us-east-1"
+  version = "3.74.0"
 }
 
 # Filter out local zones, which are not currently supported 
