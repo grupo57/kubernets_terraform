@@ -10,11 +10,11 @@ terraform {
       name = "Kubernets_terraform_2" 
     } 
   }
-  
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.47.0"
+      version = "3.74.0"
     }
 
     random = {
