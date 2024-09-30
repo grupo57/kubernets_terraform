@@ -2,14 +2,15 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-
   cloud { 
+    
     organization = "postech-fiap-grupo57" 
-    workspaces {
-      name = "Kubernets_terraform_2" 
-    }
-  }
 
+    workspaces { 
+      name = "Kubernets_terraform_2" 
+    } 
+  }
+  
   required_providers {
     aws = {
       source  = "hashicorp/aws"
