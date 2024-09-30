@@ -4,8 +4,7 @@
 terraform {
 
   cloud { 
-    organization = "postech-fiap-grupo57"
-
+    organization = "postech-fiap-grupo57" 
     workspaces {
       name = "Kubernets_terraform_2" 
     }
