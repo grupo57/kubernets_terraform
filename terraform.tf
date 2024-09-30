@@ -4,11 +4,11 @@
 terraform {
 
   cloud { 
-    organization = "postech-fiap-grupo57" 
+    organization = "postech-fiap-grupo57"
 
-    workspaces { 
+    workspaces {
       name = "Kubernets_terraform_2" 
-    } 
+    }
   }
 
   required_providers {
