@@ -18,10 +18,10 @@ locals {
   cluster_name = "techchallenge"
 }
 
-# resource "random_string" "suffix" {
-#   length  = 8
-#   special = false
-# }
+resource "random_string" "suffix" {
+  length  = 8
+  special = false
+}
 
 
 module "vpc" {
