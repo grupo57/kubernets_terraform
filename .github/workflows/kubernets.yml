@@ -49,7 +49,7 @@ jobs:
         run: terraform init
 
       - name: Select Terraform Workspace
-        run: terraform workspace select prod || terraform workspace new prod
+        run: terraform workspace select Kubernets_terraform_2 || terraform workspace new Kubernets_terraform_2
 
       - name: Terraform Apply
         run: terraform apply -auto-approve
